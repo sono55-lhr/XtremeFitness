@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Xtreme Fitness</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Xtreme Fitness</h1>
+    <p>Unleash your potential with our expert training</p>
+  </header>
+
+  <section class="features">
+    <h2>Our Programs</h2>
+    <ul>
+      <li> 💪 Strenght Training</li>
+      <li>🧘 Yoga & Mobility</li>
+      <li>🥊 Boxing & Conditioning</li>
+    </ul>
+  </section>
+
+  <section class="contact-form">
+    <h2>Contact Us</h2>
+    <form action="/contact" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>© 2025 Xtreme Fitness. All rights reserved.</footer>
+</body>
+<style>
+    body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0d0d0d;
+  color: #fff;
+}
+
+header {
+  background: #e60000;
+  padding: 2rem;
+  text-align: center;
+}
+
+.features {
+  padding: 2rem;
+  background: #1a1a1a;
+}
+
+.contact-form {
+  padding: 2rem;
+  background: #333;
+}
+
+form input, form textarea, form button {
+  display: block;
+  margin: 1rem 0;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+button {
+  background: #e60000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+}
+</style>
